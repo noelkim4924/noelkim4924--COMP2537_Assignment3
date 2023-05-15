@@ -1,0 +1,37 @@
+#pokeCards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 10px;
+    justify-items: center;
+  }
+  
+  .pokeCard {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #f5f5f5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .modal img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .form-check {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+  }
+
+  body {
+    background-image: url("https://static.wikia.nocookie.net/pokemon/images/4/4a/%EC%95%84%EB%A6%84%EB%8B%A4%EC%9A%B4_%EC%B4%88%EC%9B%90.jpg/revision/latest?cb=20120119133530&path-prefix=ko");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+
